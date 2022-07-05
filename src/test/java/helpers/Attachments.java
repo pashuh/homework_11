@@ -14,9 +14,7 @@ import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static org.openqa.selenium.logging.LogType.BROWSER;
 
 public class Attachments {
-    /** Ётот класс содержит самые полезные виды аттачментов Allure.
-     * »спользу€ их подобным образом (через класс), их не придетс€ прописывать в каждый тест.
-     */
+
 
     @Attachment(value = "{attachName}", type = "image/png")
     public static byte[] screenshotAs(String attachName) {
